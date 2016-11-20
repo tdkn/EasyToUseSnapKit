@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		DD2732ED1DE14F5F00BA1EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2732EC1DE14F5F00BA1EBC /* AppDelegate.swift */; };
-		DD2732EF1DE14F5F00BA1EBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2732EE1DE14F5F00BA1EBC /* ViewController.swift */; };
-		DD2732F21DE14F5F00BA1EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2732F01DE14F5F00BA1EBC /* Main.storyboard */; };
+		DD2732EF1DE14F5F00BA1EBC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2732EE1DE14F5F00BA1EBC /* TabBarController.swift */; };
 		DD2732F41DE14F5F00BA1EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2732F31DE14F5F00BA1EBC /* Assets.xcassets */; };
 		DD2732F71DE14F5F00BA1EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2732F51DE14F5F00BA1EBC /* LaunchScreen.storyboard */; };
+		DD2732FF1DE1612300BA1EBC /* Sample01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2732FE1DE1612300BA1EBC /* Sample01ViewController.swift */; };
+		DD2733011DE1615200BA1EBC /* Sample02ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2733001DE1615200BA1EBC /* Sample02ViewController.swift */; };
+		DD2733051DE1622300BA1EBC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DD2733041DE1622300BA1EBC /* Cartfile */; };
+		DD2733091DE1657200BA1EBC /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2733081DE1657200BA1EBC /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD2732E91DE14F5F00BA1EBC /* EasyToUseSnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyToUseSnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2732EC1DE14F5F00BA1EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD2732EE1DE14F5F00BA1EBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DD2732F11DE14F5F00BA1EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD2732EE1DE14F5F00BA1EBC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DD2732F31DE14F5F00BA1EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2732F61DE14F5F00BA1EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2732F81DE14F5F00BA1EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2732FE1DE1612300BA1EBC /* Sample01ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample01ViewController.swift; sourceTree = "<group>"; };
+		DD2733001DE1615200BA1EBC /* Sample02ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample02ViewController.swift; sourceTree = "<group>"; };
+		DD2733041DE1622300BA1EBC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		DD2733081DE1657200BA1EBC /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2733091DE1657200BA1EBC /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				DD2732EB1DE14F5F00BA1EBC /* EasyToUseSnapKit */,
 				DD2732EA1DE14F5F00BA1EBC /* Products */,
+				DD2733071DE1657100BA1EBC /* Frameworks */,
+				DD2733041DE1622300BA1EBC /* Cartfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,22 @@
 			isa = PBXGroup;
 			children = (
 				DD2732EC1DE14F5F00BA1EBC /* AppDelegate.swift */,
-				DD2732EE1DE14F5F00BA1EBC /* ViewController.swift */,
-				DD2732F01DE14F5F00BA1EBC /* Main.storyboard */,
+				DD2732EE1DE14F5F00BA1EBC /* TabBarController.swift */,
+				DD2732FE1DE1612300BA1EBC /* Sample01ViewController.swift */,
+				DD2733001DE1615200BA1EBC /* Sample02ViewController.swift */,
 				DD2732F31DE14F5F00BA1EBC /* Assets.xcassets */,
 				DD2732F51DE14F5F00BA1EBC /* LaunchScreen.storyboard */,
 				DD2732F81DE14F5F00BA1EBC /* Info.plist */,
 			);
 			path = EasyToUseSnapKit;
+			sourceTree = "<group>";
+		};
+		DD2733071DE1657100BA1EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD2733081DE1657200BA1EBC /* SnapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +92,7 @@
 				DD2732E51DE14F5F00BA1EBC /* Sources */,
 				DD2732E61DE14F5F00BA1EBC /* Frameworks */,
 				DD2732E71DE14F5F00BA1EBC /* Resources */,
+				DD2733061DE164BE00BA1EBC /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -123,35 +142,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2733051DE1622300BA1EBC /* Cartfile in Resources */,
 				DD2732F71DE14F5F00BA1EBC /* LaunchScreen.storyboard in Resources */,
 				DD2732F41DE14F5F00BA1EBC /* Assets.xcassets in Resources */,
-				DD2732F21DE14F5F00BA1EBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD2733061DE164BE00BA1EBC /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD2732E51DE14F5F00BA1EBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2732EF1DE14F5F00BA1EBC /* ViewController.swift in Sources */,
+				DD2732EF1DE14F5F00BA1EBC /* TabBarController.swift in Sources */,
 				DD2732ED1DE14F5F00BA1EBC /* AppDelegate.swift in Sources */,
+				DD2733011DE1615200BA1EBC /* Sample02ViewController.swift in Sources */,
+				DD2732FF1DE1612300BA1EBC /* Sample01ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DD2732F01DE14F5F00BA1EBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD2732F11DE14F5F00BA1EBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DD2732F51DE14F5F00BA1EBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,6 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EasyToUseSnapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tedokon.ios.EasyToUseSnapKit;
@@ -272,6 +307,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EasyToUseSnapKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tedokon.ios.EasyToUseSnapKit;
